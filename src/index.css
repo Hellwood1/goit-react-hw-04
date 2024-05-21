@@ -10,6 +10,7 @@ a {
 
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -24,12 +25,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  border-color: green;
+button:hover,
+button:focus {
+  background: rgba(0, 0, 0, 0.744);
 }
 
 ul,
 ol,
 li {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
