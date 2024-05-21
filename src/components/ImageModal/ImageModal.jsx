@@ -1,6 +1,6 @@
 import css from "./ImageModal.module.css";
 import Modal from "react-modal";
-// import { useState } from "react";
+
 
 Modal.setAppElement("#root");
 
